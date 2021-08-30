@@ -1,9 +1,9 @@
 package java_erp.dto;
 
 public class Department {
-	private int deptNo;
-	private String deptName;
-	private int floor;
+	private int deptNo;		//부서번호
+	private String deptName;//부서명
+	private int floor;		//위치
 	
 	public Department() {
 		// TODO Auto-generated constructor stub

@@ -10,6 +10,11 @@ import java_erp.dao.TitleDao;
 import java_erp.dto.Title;
 import java_erp.util.jdbcUtil;
 
+
+/**
+ * Impl은 무조건 singleton Pattern 구현
+ *
+ */
 public class TitleDaoImpl implements TitleDao {
 	
 	private static final TitleDaoImpl instance = new TitleDaoImpl();
